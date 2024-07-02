@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios, { AxiosError } from "axios"
 
 async function getArticles(accessToken) {
   const response = await axios({
@@ -30,7 +30,7 @@ async function signUp( username, password) {
     })
 
   } catch (error) {
-    throw Error('No User found')
+    return AxiosError.ERR_BAD_REQUEST
   }
   return response.data
 }
