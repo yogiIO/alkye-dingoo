@@ -1,15 +1,13 @@
-@import url('./assets/Styles/index.css');
+@import url("./assets/Styles/index.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 
 :root {
   --primary-bg-color-light: #f4f4f4;
   --secondary-bg-color-light: #ffffff;
   --primary-bg-color-dark: #000000;
-  --primary-font-family: 'TestSoehne';
+  --primary-font-family: "TestSoehne";
 }
 
 @font-face {
@@ -28,6 +26,7 @@
   font-style: normal;
 }
 
+html,
 body {
   font-family: "TestSoehne", sans-serif;
   background-color: var(--primary-bg-color-light);
@@ -35,15 +34,15 @@ body {
   overflow-x: hidden;
   height: 100vh;
 }
-#root{
+#root {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.font-family-primary{
-    font-family: var(--primary-font-family), sans-serif;
+.font-family-primary {
+  font-family: var(--primary-font-family), sans-serif;
 }
-.font-secondary-color{
+.font-secondary-color {
   background-color: var(--secondary-bg-color-light);
 }
