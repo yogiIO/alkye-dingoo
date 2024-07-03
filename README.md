@@ -4,3 +4,6 @@ This project is the demonstration of react-router-dom 6.4v+ implemented loaders.
 # cd ~/alkye-dingoo
 # npm i
 # npm run dev
+
+
+The project is responsive to large screens and mid sized screens.
